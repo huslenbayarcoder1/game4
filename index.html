@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo app</title>
+
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 90vh;
+                background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(73,79,44,1) 9%, rgba(62,63,98,1) 13%, rgba(70,69,133,1) 18%, rgba(88,131,160,1) 23%, rgba(112,192,127,1) 29%, rgba(135,135,224,1) 35%, rgba(227,167,120,1) 42%, rgba(112,148,229,1) 46%, rgba(150,104,231,1) 50%, rgba(94,159,233,1) 55%, rgba(200,143,126,0.8785889355742297) 61%, rgba(157,162,166,1) 67%, rgba(158,152,171,1) 69%, rgba(184,127,132,1) 74%, rgba(167,76,210,1) 84%, rgba(66,216,107,1) 86%, rgba(52,225,155,1) 89%, rgba(43,223,159,1) 91%, rgba(104,0,255,1) 100%);
+            }
+            .ToDo{
+                background-color:rgb(245, 245, 209) ;
+                width: 400px;
+                border-radius: 10px;
+                padding: 15px;
+            }
+            .ToDo input{
+                width: 80%;
+            }
+            .ToDo li{
+                position: relative;
+                margin-bottom: 10px;
+
+            }
+            .ToDo ol button{
+                position: absolute;
+                right: 30px;
+            }
+            .ToDo .del{
+                right:70px;
+            }
+            .checked{
+                color:greenyellow;
+                text-decoration-line: line-through;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class="ToDo">
+            <h3>To do List app</h3>
+            <input type="text">
+            <button class="add">Add</button>
+            <ol>
+                
+            </ol>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
